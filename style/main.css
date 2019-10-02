@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A192F;
+    background: url("../images/background.png") center no-repeat;
+    background-size: auto;
+    font-family: Consolas, monaco, monospace;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+    vertical-align: middle;
+}
+
+/*==== Container div====*/
+.container {
+    width: 100%;
+    max-width: 764px;
+    margin: 0 auto;
+}
+
+/*==== Content section====*/
+.content {
+    margin-top: 100px;
+    padding: 0 24px;
+    border-right: 1px solid #fff;
+    border-left: 4px solid #fff;
+}
+
+/*==== Greeting div ====*/
+.greeting {
+    font-size: 16px;
+    color: #21B2E2; 
+    line-height: 0.01;
+}
+
+#name {
+    font-size: 72px;
+    color: #fff;
+    
+}
+
+#blue-os {
+    color: #21B2E2;
+}
+
+/*==== Message div ====*/
+.message {
+    width: 100%;
+    max-width: 45%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.message p {
+    padding-bottom: 16px;
+}
+
+/*==== Contact a ====*/
+.get-in-tousch_btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 18px 32px;
+    border: 2px solid #21B2E2;
+    color: #21B2E2;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 0 auto;
+    margin-top: 32px;
+    border-radius: 3px;
+    transition: border-color .2s linear, color .2s linear;
+}
+
+.get-in-tousch_btn:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+.or {
+    width: 100%;
+    max-width: fit-content;
+    margin: 32px auto;
+    text-align: center;
+}
+
+/*==== Social div ==== */
+.social {
+    display: flex;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+    /* margin-top: 200px; */
+}
+
+.social-item {
+    flex: 1 1 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.social-item:nth-child(3) {
+    border-radius: 5px;
+}
+
+.social-item a{
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    transition: color .1s linear, background .2s linear, font-size .2s linear;
+}
+
+.social-item a:hover {
+    font-size: 50px;
+}
+
+.social-item:first-child a:hover {
+    color: black;
+}
+
+.social-item:nth-child(2) a:hover {
+    color: #4680C2;
+}
+
+.social-item:nth-child(3) a:hover {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-item:last-child a:hover {
+    color: #1DA1F2;
+}
