@@ -55,11 +55,11 @@ body {
     margin-top: 0;
 }
 
-#blue-os {
+#dot-blue {
     color: #21B2E2;
 }
 
-/*==== Eyes ====*/
+/*==== Eyes span ====*/
 .eyes {
     display: inline-block;
 }
@@ -68,8 +68,6 @@ body {
     display: inline-block;
     width: 40px;
     height: 40px;
-    /* max-width: 45px;
-    max-width: 45px; */
     background: #fff;
     border-radius: 50%;
     position: relative;
@@ -154,10 +152,6 @@ body {
     vertical-align: middle;
 }
 
-.social-item:nth-child(3) {
-    border-radius: 5px;
-}
-
 .social-item a{
     font-size: 40px;
     color: #fff;
@@ -169,15 +163,15 @@ body {
     font-size: 50px;
 }
 
-.social-item:first-child a:hover {
+.social-item.github a:hover {
     color: #211F1F;
 }
 
-.social-item:nth-child(2) a:hover {
+.social-item.vk a:hover {
     color: #4680C2;
 }
 
-.social-item:nth-child(3) a:hover {
+.social-item.instagram a:hover {
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background-clip: unset;
@@ -185,6 +179,6 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.social-item:last-child a:hover {
+.social-item.twitter a:hover {
     color: #1DA1F2;
 }
