@@ -182,3 +182,7 @@ body {
 .social-item.twitter a:hover {
     color: #1DA1F2;
 }
+
+.social-item.linkedin a:hover {
+    color: #2867B2;
+}
