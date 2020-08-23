@@ -1,188 +1,203 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100%;
-    height: 100%;
-    max-width: 1920px;
-    max-height: 2096px;
-    margin: 0;
-    background-color: #0A192F;
-    background: url("../images/background.png") center center no-repeat fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    font-family: Consolas, monaco, monospace;
-    font-size: 16px;
-    color: #fff;
-    vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  max-width: 1920px;
+  max-height: 2096px;
+  margin: 0;
+  background-color: #0a192f;
+  background: url("../images/background_small.png") center center no-repeat
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Consolas, monaco, monospace;
+  font-size: 16px;
+  color: #fff;
+  vertical-align: middle;
 }
 
 /*==== Container div====*/
 .container {
-    width: 100%;
-    max-width: 764px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 764px;
+  margin: 0 auto;
 }
 
 /*==== Content section====*/
 .content {
-    margin-top: 100px;
-    padding: 0 24px;
-    border-right: 1px solid #fff;
-    border-left: 4px solid #fff;
+  margin-top: 100px;
+  padding: 0 24px;
+  border-right: 1px solid #fff;
+  border-left: 4px solid #fff;
 }
 
 /*==== Greeting div ====*/
 .greeting {
-    font-size: 16px;
-    color: #21B2E2;
+  font-size: 16px;
+  color: #21b2e2;
 }
 
 .greeting h4 {
-    line-height: 1;
-    margin-top: 0;
+  line-height: 1;
+  margin-top: 0;
 }
 
 #name {
-    font-size: 72px;
-    color: #fff;
-    line-height: 55px;
-    margin-top: 0;
+  font-size: 72px;
+  color: #fff;
+  line-height: 55px;
+  margin-top: 0;
 }
 
 #dot-blue {
-    color: #21B2E2;
+  color: #21b2e2;
 }
 
 /*==== Eyes span ====*/
 .eyes {
-    display: inline-block;
+  display: inline-block;
 }
 
 .eye {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    background: #fff;
-    border-radius: 50%;
-    position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
 }
 
 .eye:first-child {
-    float:left;
-    margin-right: 5px;
+  float: left;
+  margin-right: 5px;
 }
 
 .eye:last-child {
-    float: right;
-    margin-left: 5px;
+  float: right;
+  margin-left: 5px;
 }
 
 .ball {
-    box-sizing: content-box;
-    width: 10px;
-    height: 10px;
-    background:#a1caf1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    border: 3px solid #5ea4e7;
+  box-sizing: content-box;
+  width: 10px;
+  height: 10px;
+  background: #a1caf1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 3px solid #5ea4e7;
 }
 
 /*==== Message div ====*/
 .message {
-    width: 100%;
-    max-width: 45%;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    margin: 0 auto;
-    text-align: center;
+  width: 100%;
+  max-width: 45%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .message p {
-    padding-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 /*==== Contact a ====*/
 .get-in-tousch_btn {
-    display: inline-block;
-    vertical-align: top;
-    padding: 18px 32px;
-    border: 2px solid #21B2E2;
-    color: #21B2E2;
-    text-decoration: none;
-    text-transform: capitalize;
-    margin: 0 auto;
-    margin-top: 32px;
-    border-radius: 3px;
-    transition: border-color .2s linear, color .2s linear;
+  display: inline-block;
+  vertical-align: top;
+  padding: 18px 32px;
+  border: 2px solid #21b2e2;
+  color: #21b2e2;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0 auto;
+  margin-top: 32px;
+  border-radius: 3px;
+  transition: border-color 0.2s linear, color 0.2s linear;
 }
 
 .get-in-tousch_btn:hover {
-    border-color: #fff;
-    color: #fff;
+  border-color: #fff;
+  color: #fff;
 }
 
 .or {
-    width: 100%;
-    max-width: fit-content;
-    margin: 32px auto;
-    text-align: center;
+  width: 100%;
+  max-width: fit-content;
+  margin: 32px auto;
+  text-align: center;
 }
 
 /*==== Social div ==== */
 .social {
-    display: flex;
-    width: 100%;
-    max-width: 50%;
-    margin: 0 auto;
-    /* margin-top: 200px; */
+  display: flex;
+  width: 100%;
+  max-width: 50%;
+  margin: 0 auto;
+  /* margin-top: 200px; */
 }
 
 .social-item {
-    flex: 1 1 0;
-    text-align: center;
-    vertical-align: middle;
+  flex: 1 1 0;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.social-item a{
-    font-size: 40px;
-    color: #fff;
-    text-decoration: none;
-    transition: color .1s linear, background .2s linear, font-size .2s linear;
+.social-item a {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.1s linear, background 0.2s linear, font-size 0.2s linear;
 }
 
 .social-item a:hover {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .social-item.github a:hover {
-    color: #211F1F;
+  color: #211f1f;
 }
 
 .social-item.vk a:hover {
-    color: #4680C2;
+  color: #4680c2;
 }
 
 .social-item.instagram a:hover {
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    background-clip: unset;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background-clip: unset;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .social-item.twitter a:hover {
-    color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .social-item.linkedin a:hover {
-    color: #2867B2;
+  color: #2867b2;
 }
